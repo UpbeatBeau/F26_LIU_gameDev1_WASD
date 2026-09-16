@@ -630,6 +630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WASD_rb_new
   rb: {fileID: 0}
   movespeed: 3
+  movedirection: {x: 0, y: 0}
   move: {fileID: 1159188719010397495, guid: aa4140c2dc8a2b043a2dae33aee2f338, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
@@ -637,5 +638,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 619394802}
-  - {fileID: 262699474}
   - {fileID: 1531780850}
+  - {fileID: 262699474}

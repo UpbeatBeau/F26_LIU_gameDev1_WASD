@@ -26,6 +26,9 @@ public class WASD_rb_new : MonoBehaviour
     {
         //add the direction of our movement from the reference of the new input manager we made
         movedirection = move.action.ReadValue<Vector2>();
+        Debug.Log(movedirection);
+
+        //rb.linearVelocity = new Vector2(x:movedirection.x * movespeed, y:movedirection.y * movespeed);
     }
 
 // fixed update is called once every physics frame
